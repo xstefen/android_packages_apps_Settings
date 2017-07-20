@@ -67,7 +67,7 @@
     <string name="gesture_double_twist_sensor_vendor" translatable="false"></string>
 
     <!-- When true enable gesture setting. -->
-    <bool name="config_gesture_settings_enabled">false</bool>
+    <bool name="config_gesture_settings_enabled">true</bool>
 
     <!-- If the Storage Manager settings are enabled. -->
     <bool name="config_storage_manager_settings_enabled">false</bool>
@@ -221,7 +221,7 @@
         Whether or not the homepage should be powered by legacy suggestion (versus contextual cards)
         Default to true as not all devices support contextual cards.
     -->
-    <bool name="config_use_legacy_suggestion">true</bool>
+    <bool name="config_use_legacy_suggestion">false</bool>
 
     <!-- Whether or not homepage should display user's account avatar -->
     <bool name="config_show_avatar_in_homepage">false</bool>
@@ -357,7 +357,7 @@
     <bool name="config_show_private_dns_settings">true</bool>
 
     <!-- Whether memory from app_info_settings is available or not. -->
-    <bool name="config_show_app_info_settings_memory">false</bool>
+    <bool name="config_show_app_info_settings_memory">true</bool>
 
     <!-- Whether battery from app_info_settings is available or not. -->
     <bool name="config_show_app_info_settings_battery">true</bool>
@@ -447,7 +447,7 @@
     <bool name="config_show_trust_agent_click_intent">true</bool>
 
     <!-- Whether wallpaper attribution should be shown or not. -->
-    <bool name="config_show_wallpaper_attribution">true</bool>
+    <bool name="config_show_wallpaper_attribution">false</bool>
 
     <!-- Whether assist_and_voice_input should be shown or not. -->
     <bool name="config_show_assist_and_voice_input">true</bool>
